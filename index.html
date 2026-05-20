@@ -102,12 +102,12 @@
 <script>
   const cardImages = {
     // Negative deck fn001–fn062 //////////
-    ...Object.fromEntries(Array.from({ length: 102 }, (_, i) => {
+    ...Object.fromEntries(Array.from({ length: 71 }, (_, i) => {
       const key = `fn${String(i + 1).padStart(3, '0')}`;
       return [key, `https://raw.githubusercontent.com/chitchaya-lin/tarot-cards-f/main/${key}.jpg`];
     })),
     // Positive deck fp001–fp055 //////////
-    ...Object.fromEntries(Array.from({ length: 55 }, (_, i) => {
+    ...Object.fromEntries(Array.from({ length: 26 }, (_, i) => {
       const key = `fp${String(i + 1).padStart(3, '0')}`;
       return [key, `https://raw.githubusercontent.com/chitchaya-lin/tarot-cards-f/main/${key}.jpg`];
     }))
